@@ -1,0 +1,161 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	line-height: 1.2em;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.secondary-btn{
+	display: inline-block;
+    color: #fff;
+    background-color: #555555;
+    width: 450px;
+    max-width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+#wrapper{
+	width: 100%;
+	height: 100vh;
+	display: inline-block;
+	overflow: hidden;
+}
+
+#wrapper #left{
+	width: 35%;
+	float: left;
+	height: 100vh;
+	background-color: #181818;
+	position: relative;
+}
+
+#wrapper #left #signin{
+	position: absolute;
+    top: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+    height: auto;
+    padding: 0px 125px;
+    width: 100%;
+}
+
+#wrapper #left #signin .logo{
+	text-align: center;
+	margin-bottom: 75px;
+}
+
+#wrapper #left #signin .logo img{
+	max-width: 100%;
+	width: 280px;
+	height: auto;
+}
+
+#wrapper #left #signin form label{
+	display: block;
+	color: #fff;
+	width: 100%;
+	font-size: 16px;
+	line-height: 1.2em;
+	margin-bottom: 7px;
+}
+
+#wrapper #left #signin form input{
+	width: 100%;
+    height: 36px;
+    border: 1px solid rgb(73 72 72);
+    background-color: transparent;
+    margin-bottom: 30px;
+    border-radius: 2px;
+    outline: none;
+}
+
+#wrapper #left #signin form button{
+	width: 100%;
+	background-color: #0084bd;
+	border: 0;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	height: 36px;
+	margin-top: -10px;
+	display: block;
+	cursor: pointer;
+}
+
+#wrapper #left #signin #links{
+	text-align: center;
+	margin-top: 50px;
+}
+
+#wrapper #left #signin #links a{
+	display: block;
+	color: #0084bd;
+	margin: 15px 0px;
+	text-decoration: none;
+}
+
+#wrapper #left #signin .hr-bar hr{
+	border-color: #555555;
+    margin-top: 25px;
+    margin-bottom: -5px;
+}
+
+#wrapper #left footer{
+	position: absolute;
+	bottom: 75px;
+	text-align: center;
+	padding: 0px 125px;
+	width: 100%;
+	color: #888;
+	font-size: 14px;
+}
+
+#wrapper #left footer p{
+	color: #888;
+	margin-bottom: 10px;
+}
+
+#wrapper #left footer a{
+	color: #888;
+	display: inline-block;
+	margin: 0px 5px;
+}
+
+#wrapper #right{
+	width: 65%;
+	float: right;
+	height: 100vh;
+	background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
+	position: relative;
+}
+
+#wrapper #right #showcase{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: auto;
+	height: auto;
+}
+
+#wrapper #right #showcase #showcase-content h1{
+	color: #fff;
+	font-size: 44px;
+	margin: 0;
+	font-weight: 400;
+	line-height: 1em;
+}
